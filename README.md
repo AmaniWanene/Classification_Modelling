@@ -21,28 +21,68 @@ best_overall_model = RandomForestClassifier(
 )
 
 best_overall_model.fit(X_train_resampled, y_train_resampled)
+
+
 Best Recall Score from GridSearchCV: 0.8515909090909091
+
+
 Best ROC-AUC Score from GridSearchCV: 0.9438613172541744
+
+
 Training Metrics:
+
+
 Confusion Matrix:
  [[509  50]
  [ 75 484]]
+
+
 Accuracy Score: 0.8881932021466905
+
+
 F1 Score: 0.8856358645928638
+
+
 Precision: 0.9063670411985019
+
+
 Recall: 0.8658318425760286
+
+
 ROC-AUC Score: 0.9641130180714987
 
 Testing Metrics:
+
+
 Confusion Matrix:
  [[1982  309]
  [  66  309]]
+
+
 Accuracy Score: 0.8593398349587397
+
+
 F1 Score: 0.622356495468278
+
+
 Precision: 0.5
+
+
 Recall: 0.824
+
+
 ROC-AUC Score: 0.8797276298559581
+
+
 ![alt text](image.png)!
+
+
+
+
+
+
+
+
 
 [alt text](image-1.png)
 
